@@ -39,7 +39,7 @@ namespace BankAdvanced
 
         private static void PrikaziDetaljeKorisnika(IKorisnik korisnik)
         {
-            var form = FrmProfilKorisnika(korisnik);
+            var form = new FrmProfilKorisnika(korisnik);
             form.ShowDialog();
         }
 
@@ -48,7 +48,7 @@ namespace BankAdvanced
             IKorisnik korisnik = null;
             if (dgvKorisnici.SelectedRows.Count > 0)
             {
-                korisnik = dgvKorisnici.SelectedRows[0].DataBoundItem;
+                korisnik = dgvKorisnici.SelectedRows[0].DataBoundItem as IKorisnik;
             }
             return korisnik;
         }

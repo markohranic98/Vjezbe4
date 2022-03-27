@@ -34,7 +34,7 @@ namespace BankAdvanced
             form.Show();
         }
 
-        private void DohvatiSelektiraniRacun()
+        private IRacun DohvatiSelektiraniRacun()
         {
             if (racuniDataGridView.CurrentRow != null)
             {

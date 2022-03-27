@@ -39,6 +39,7 @@ namespace BankAdvanced
             {
                 return korisniciDataGridView.CurrentRow.DataBoundItem as IKorisnik;
             }
+            return null;
         }
 
         private void FrmOdaberiKorisnika_Load(object sender, EventArgs e)

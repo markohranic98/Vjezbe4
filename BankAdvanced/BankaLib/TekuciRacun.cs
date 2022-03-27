@@ -23,7 +23,7 @@ namespace BankaLib
             Valuta = MjenjacnicaDB.ReferentnaValuta;
         }
 
-        private override void OduzmiIznos(double iznos)
+        public override void OduzmiIznos(double iznos)
         {
             Stanje -= iznos;
         }

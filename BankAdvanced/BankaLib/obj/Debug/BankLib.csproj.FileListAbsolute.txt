@@ -1,0 +1,9 @@
+C:\Users\Marko\source\repos\Vjezbe4\BankAdvanced\BankaLib\obj\Debug\BankLib.csproj.AssemblyReference.cache
+C:\Users\Marko\source\repos\Vjezbe4\BankAdvanced\BankaLib\obj\Debug\BankLib.csproj.CoreCompileInputs.cache
+C:\Users\Marko\source\repos\Vjezbe4\BankAdvanced\BankaLib\bin\Debug\BankaLib.dll
+C:\Users\Marko\source\repos\Vjezbe4\BankAdvanced\BankaLib\bin\Debug\BankaLib.pdb
+C:\Users\Marko\source\repos\Vjezbe4\BankAdvanced\BankaLib\bin\Debug\MjenjacnicaLib.dll
+C:\Users\Marko\source\repos\Vjezbe4\BankAdvanced\BankaLib\bin\Debug\MjenjacnicaLib.pdb
+C:\Users\Marko\source\repos\Vjezbe4\BankAdvanced\BankaLib\obj\Debug\BankLib.csproj.CopyComplete
+C:\Users\Marko\source\repos\Vjezbe4\BankAdvanced\BankaLib\obj\Debug\BankaLib.dll
+C:\Users\Marko\source\repos\Vjezbe4\BankAdvanced\BankaLib\obj\Debug\BankaLib.pdb

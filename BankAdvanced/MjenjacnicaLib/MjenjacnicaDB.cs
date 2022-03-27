@@ -24,7 +24,7 @@ namespace MjenjacnicaLib
             Valute.Add(new Valuta("HRK", "Hrvatska"));
             
             PopisTecajeva = new PopisTecajeva();
-            ReferentnaValuta = VratiValutuPoNazivu(HRK);
+            ReferentnaValuta = VratiValutuPoNazivu("HRK");
         }
 
         public static List<Valuta> Valute { get; private set; }

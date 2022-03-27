@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BankaLib
 {
-    public static class GeneratorIBAN
+    public  class GeneratorIBAN
     {
         public string DohvatiNovi()
         {

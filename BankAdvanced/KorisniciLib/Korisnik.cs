@@ -32,7 +32,7 @@ namespace KorisniciLib
 
         public List<IRacun> DohvatiRacune(VrstaRacuna vrsta)
         {
-            var list = new List<IRacun>()
+            var list = new List<IRacun>();
 
             foreach (var racun in Racuni)
             {

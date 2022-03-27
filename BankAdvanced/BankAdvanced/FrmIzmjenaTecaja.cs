@@ -39,7 +39,7 @@ namespace BankAdvanced
 
         private void btnSpremi_Click(object sender, EventArgs e)
         {
-            double novaVrijednost = txtVrijednost.Text;
+            double novaVrijednost = Convert.ToDouble(txtVrijednost.Text);
             OdabraniTecaj.Vrijednost = novaVrijednost;
             Close();
         }

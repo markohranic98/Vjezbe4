@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace KorisniciLib
 {
-    enum VrstaKorisnika
+    public enum VrstaKorisnika
     {
         Obicni,
         Premium

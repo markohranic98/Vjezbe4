@@ -17,6 +17,7 @@ namespace BankAdvanced
     {
         public IKorisnik odabraniKorisnik { get; set; }
 
+        private GeneratorIBAN GeneratorIBAN { get; set; }
         public FrmOtvoriTekuciRacun(IKorisnik korisnik)
         {
             InitializeComponent();
