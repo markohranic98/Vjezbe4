@@ -46,6 +46,7 @@
     <Compile Include="GeneratorIBAN.cs" />
     <Compile Include="IRacun.cs" />
     <Compile Include="Iznimke\BankaException.cs" />
+    <Compile Include="Iznimke\TransactionException.cs" />
     <Compile Include="Racun.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TekuciRacun.cs" />

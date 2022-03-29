@@ -17,7 +17,7 @@ namespace BankAdvanced
     {
         private Valuta _odabranaValuta;
 
-        private GeneratorIBAN _generatorIBAN;
+        private GeneratorIBAN generator = new GeneratorIBAN();
         public IKorisnik OdabraniKorisnik { get; set; }
 
         public FrmOtvoriDevizniRacun(IKorisnik korisnik)
@@ -45,7 +45,7 @@ namespace BankAdvanced
 
         private void InicijalizirajPodatke()
         {
-            ibanTextBox.Text = _generatorIBAN.DohvatiNovi();
+            ibanTextBox.Text = generator.DohvatiNovi();
             korisnikTextBox.Text = OdabraniKorisnik.Opis;
             stanjeTextBox.Text = "0";
         }

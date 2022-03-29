@@ -19,6 +19,7 @@ namespace BankAdvanced
         public FrmRacuni(IKorisnik korisnik)
         {
             InitializeComponent();  
+            OdabraniKorisnik = korisnik;
         }
 
         private void btnPrikaziTransakcije_Click(object sender, EventArgs e)

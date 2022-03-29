@@ -141,9 +141,18 @@ namespace BankAdvanced
 
         private void provediButton_Click(object sender, EventArgs e)
         {
-            double iznos = double.Parse(iznosTextBox.Text);
-            _izvorisniRacun.IzvrsiIsplatu(_odredisniRacun, iznos);
-            Close();
+            try
+            {
+                double iznos = double.Parse(iznosTextBox.Text);
+                _izvorisniRacun.IzvrsiIsplatu(_odredisniRacun, iznos);
+                Close();
+            }
+            catch (TransactionException ex)
+            {
+                MessageBox.Show(ex.Poruka);
+            }
+            
+            
         }
     }
 }

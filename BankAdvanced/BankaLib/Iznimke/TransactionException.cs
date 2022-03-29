@@ -1,17 +1,19 @@
-﻿using System;
+﻿using BankaLib.Iznimke;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace BankaLib.Iznimke
 {
-    public class TransactionException : BankException
+    public class TransactionException : BankaException
     {
-        public TransactionException(string poruku)
-            :base(poruku)
+        public TransactionException(string poruka) : base(poruka)
         {
-
+            
         }
+
     }
 }

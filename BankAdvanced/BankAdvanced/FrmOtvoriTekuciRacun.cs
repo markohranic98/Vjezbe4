@@ -17,7 +17,6 @@ namespace BankAdvanced
     {
         public IKorisnik odabraniKorisnik { get; set; }
 
-        private GeneratorIBAN GeneratorIBAN { get; set; }
         public FrmOtvoriTekuciRacun(IKorisnik korisnik)
         {
             InitializeComponent();
@@ -45,7 +44,8 @@ namespace BankAdvanced
 
         private void InicijalizirajPodatke()
         {
-            ibanTextBox.Text = GeneratorIBAN.DohvatiNovi();
+            GeneratorIBAN generatorIBAN = new GeneratorIBAN();
+            ibanTextBox.Text = generatorIBAN.DohvatiNovi();
             korisnikTextBox.Text = odabraniKorisnik.Opis;
             Valuta hrk = MjenjacnicaDB.VratiValutuPoNazivu("HRK");
             valutaTextBox.Text = hrk.ToString();

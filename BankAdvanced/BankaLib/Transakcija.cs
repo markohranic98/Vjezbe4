@@ -5,7 +5,7 @@ using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using BankaLib.Iznimke;
 namespace BankaLib
 {
     public class Transakcija
@@ -64,6 +64,7 @@ namespace BankaLib
 
         public Transakcija(IRacun izvorisniRacun, IRacun odredisniRacun, double iznos)
         {
+            
             Id = GetHashCode();
             IzvorisniRacun = izvorisniRacun;
             OdredisniRacun = odredisniRacun;

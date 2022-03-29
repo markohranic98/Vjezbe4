@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using BankaLib.Iznimke;
 namespace BankaLib
 {
     public abstract class Racun : IRacun
@@ -31,16 +31,21 @@ namespace BankaLib
 
         public void IzvrsiIsplatu(IRacun odredisniRacun, double iznos)
         {
-            Transakcija transakcija = new Transakcija(this, odredisniRacun, iznos);
-            transakcija.Izvrsi();
-
-            ZabiljeziTransakciju(transakcija);
-            odredisniRacun.ZabiljeziTransakciju(transakcija);
-
-            if (transakcija.Provedena == false)
+            if (iznos < 0)
             {
-                transakcija.Ponisti();
+                throw new TransactionException("poruka");
             }
+
+            Transakcija transakcija = new Transakcija(this, odredisniRacun, iznos);
+                transakcija.Izvrsi();
+                ZabiljeziTransakciju(transakcija);
+                odredisniRacun.ZabiljeziTransakciju(transakcija);
+
+                if (transakcija.Provedena == false)
+                {
+                    transakcija.Ponisti();
+                }
+            
         }
 
         public virtual void DodajIznos(double iznos)
