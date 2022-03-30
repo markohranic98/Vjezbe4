@@ -17,10 +17,8 @@ namespace Triangles
             do
             {
                 Console.ForegroundColor = ConsoleColor.White;
-
                 Console.WriteLine("WARNING: " + errorMessage);
                 Console.WriteLine("Main menu");
-                
                 Console.WriteLine("---------");
                 Console.WriteLine("1. add triangle");
                 Console.WriteLine("2. display all triangles");
