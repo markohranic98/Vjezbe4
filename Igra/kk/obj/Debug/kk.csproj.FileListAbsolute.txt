@@ -1,0 +1,11 @@
+C:\Users\Marko\source\repos\Vjezbe4\Igra\kk\obj\Debug\kk.csproj.AssemblyReference.cache
+C:\Users\Marko\source\repos\Vjezbe4\Igra\kk\obj\Debug\kk.csproj.SuggestedBindingRedirects.cache
+C:\Users\Marko\source\repos\Vjezbe4\Igra\kk\obj\Debug\kk.Form1.resources
+C:\Users\Marko\source\repos\Vjezbe4\Igra\kk\obj\Debug\kk.Properties.Resources.resources
+C:\Users\Marko\source\repos\Vjezbe4\Igra\kk\obj\Debug\kk.csproj.GenerateResource.cache
+C:\Users\Marko\source\repos\Vjezbe4\Igra\kk\obj\Debug\kk.csproj.CoreCompileInputs.cache
+C:\Users\Marko\source\repos\Vjezbe4\Igra\kk\bin\Debug\kk.exe.config
+C:\Users\Marko\source\repos\Vjezbe4\Igra\kk\bin\Debug\kk.exe
+C:\Users\Marko\source\repos\Vjezbe4\Igra\kk\bin\Debug\kk.pdb
+C:\Users\Marko\source\repos\Vjezbe4\Igra\kk\obj\Debug\kk.exe
+C:\Users\Marko\source\repos\Vjezbe4\Igra\kk\obj\Debug\kk.pdb

@@ -1,0 +1,6 @@
+C:\Users\Marko\source\repos\Vjezbe4\Banka - prijava u aplikaciju2\Bankarstvo\BankarstvoLib\obj\Debug\BankarstvoLib.csproj.AssemblyReference.cache
+C:\Users\Marko\source\repos\Vjezbe4\Banka - prijava u aplikaciju2\Bankarstvo\BankarstvoLib\obj\Debug\BankarstvoLib.csproj.CoreCompileInputs.cache
+C:\Users\Marko\source\repos\Vjezbe4\Banka - prijava u aplikaciju2\Bankarstvo\BankarstvoLib\bin\Debug\BankarstvoLib.dll
+C:\Users\Marko\source\repos\Vjezbe4\Banka - prijava u aplikaciju2\Bankarstvo\BankarstvoLib\bin\Debug\BankarstvoLib.pdb
+C:\Users\Marko\source\repos\Vjezbe4\Banka - prijava u aplikaciju2\Bankarstvo\BankarstvoLib\obj\Debug\BankarstvoLib.dll
+C:\Users\Marko\source\repos\Vjezbe4\Banka - prijava u aplikaciju2\Bankarstvo\BankarstvoLib\obj\Debug\BankarstvoLib.pdb
